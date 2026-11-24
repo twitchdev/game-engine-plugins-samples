@@ -1,0 +1,19 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "",
+	"Description": "C++ sample for the Twitch SDK Unreal plugin. No Blueprints.",
+	"Modules": [
+		{
+			"Name": "TwitchCppSample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TwitchSDK",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 20100,
+	"VersionName": "2.1",
+	"FriendlyName": "Twitch",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TwitchSDK",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [ "Win64", "Linux", "Mac" ]
+		}
+	]
+}

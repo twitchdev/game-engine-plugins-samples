@@ -1,0 +1,13 @@
+#include "twitchsdk.hpp"
+
+#ifndef GITVERS
+#define GITVERS "@COMMIT@"
+#endif
+
+// The version number comes from core/VERSION. CMake substitutes it here;
+// the Unreal build defines TWITCHSDK_VERSION itself (TwitchSDK.Build.cs).
+#ifndef TWITCHSDK_VERSION
+#define TWITCHSDK_VERSION "@TWITCHSDK_VERSION@"
+#endif
+
+TwitchSDK::string TwitchSDK::Version = STR("" TWITCHSDK_VERSION "-" GITVERS);

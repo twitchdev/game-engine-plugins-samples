@@ -1,0 +1,20 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# IDE / generated project files
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.pdb
+
+# Build artifacts
+*.unitypackage

@@ -1,0 +1,9 @@
+# Copied in by import-plugin.bat
+/gdscript/addons/twitchsdk/
+/csharp/addons/twitchsdk/
+
+# Godot and .NET caches
+.godot/
+/csharp/bin/
+/csharp/obj/
+*.csproj.old*
